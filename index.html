@@ -90,9 +90,21 @@
                 <!-- Menu Start -->
                 <div class="menu-area menu-sticky">
                     <div class="logo-part hidden-md" style="width: 400px;">
-                        <a class="light-logo" href="index.html">
-                            <img src="assets/images/ar-favicon.png" alt="AR Academy Logo" style="height: 80px;padding-right: 10px;padding-left: 30px;">
-                            <span style="font-size: 20px;font-weight: bold; color: #000;">AR Academy</span>
+                        <a class="light-logo d-flex align-items-center" href="index.html">
+                            <div class="d-flex align-items-center p-3">
+                                <a href="#" class="btn btn-outline-primary" style="border: 2px solid #21a7d0; color: #21a7d0; padding: 4px 8px; margin-right: 15px;">
+                                    <i class="fa fa-calendar" style="margin-right: 5px;"></i>
+                                    Request Demo
+                                </a>
+                                <a href="tel:+919347812341" class="btn btn-primary" style="background-color: #21a7d0; border: none; padding: 4px 8px; ">
+                                    <i class="fa fa-phone" style="margin-right: 5px;"></i>
+                                    Call us: 
+                                    <br>
+                                    +91 9347812341
+                                    <br>
+                                    +91 7093855210
+                                </a>
+                            </div>
                         </a>
                         <a class="small-logo" href="index.html">
                             <img src="assets/images/ar-favicon.png" alt="AR Academy Small Logo">
@@ -121,7 +133,7 @@
                                                 </ul>
                                              </li>   
                                                                                     
-                                     <li class="rs-mega-menu mega-rs menu-item-has-children "> <a href="#">Courses</a>
+                                     <li class="rs-mega-menu mega-rs menu-item-has-children "> <a href="course.html">Courses</a>
                                           <ul class="mega-menu responsive-style"> 
                                               <li class="mega-menu-container">
                                                   <div class="mega-menu-innner">
@@ -129,7 +141,7 @@
                                                    <ul class="sub-menu">
                                                     <li class="tit">AAPC</li>
                                                     
-                                                            <li><a href="#">CPC</a> </li>
+                                                            <li><a href="course.html">CPC</a> </li>
                                                               <!-- <li><a href="cic-exam-training.html">CIC</a> </li>
                                                               <li><a href="coc.html">COC</a> </li>
                                                               <li><a href="cpma.html">CPMA</a> </li>
@@ -139,15 +151,14 @@
                                                       <div class="single-megamenu">
                                                           <ul class="sub-menu last-sub-menu">
                                                             <li class="tit">SPECIALTY TRAINING</li>
-                                                              <li><a href="#">SURGERY DEPARTMENT</a></li>
-                                                              <li><a href="#">EMERGENCY DEPARTMENT</a></li>
-                                                              <li><a href="#">E&M</a></li>
-                                                              <li><a href="#">IP DRG</a></li>
-                                                              <li><a href="#">HCC</a></li>
-                                                              <li><a href="#">MEDICAL BILLING</a></li>
-                                                              <li><a href="#">AR CALLING</a></li>
-                                                              <li><a href="#">ICD</a></li>
-                                                              <li><a href="#">HCPCS</a></li>
+                                                              <li><a href="course.html">SURGERY DEPARTMENT</a></li>
+                                                              <li><a href="course.html">E&M</a></li>
+                                                              <li><a href="course.html">IP DRG</a></li>
+                                                              <li><a href="course.html">HCC</a></li>
+                                                              <li><a href="course.html">MEDICAL BILLING</a></li>
+                                                              <li><a href="course.html">AR CALLING</a></li>
+                                                              <li><a href="course.html">ICD</a></li>
+                                                              <li><a href="course.html">HCPCS</a></li>
                                                           </ul>
                                                       </div>
                                                       <!-- <div class="single-megamenu">
@@ -173,8 +184,8 @@
                                                       <div class="single-megamenu">
                                                           <ul class="sub-menu last-sub-menu">
                                                             <li class="tit">ONLINE</li>
-                                                            <li><a href="#">ONLINE</a> </li>
-                                                            <li><a href="#">OFFLINE</a> </li>
+                                                            <li><a href="course.html">ONLINE</a> </li>
+                                                            <li><a href="course.html">OFFLINE</a> </li>
                                                           </ul>
                                                       </div> 
 
@@ -185,7 +196,7 @@
                                     
                                       
                                       
-                                      <li> <a href="#">Consultancy</a> </li>
+                                      <li> <a href="consultancy.html">Consultancy</a> </li>
                                       
                                       <li> <a href="about-us.html">About Us</a> </li>
 
@@ -347,13 +358,82 @@ line-height: 14px;
     height: 100%;
     min-height: 277px;
 }
+
+.ar-academy-hero-section-title {
+    font-size: 135px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ar-academy-hero-section-subtitle {
+    font-size: 50px;
+    color: black;
+}
+
+.ar-academy-hero-section-row {
+    background-image: url(assets/images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ar-academy-hero-section-mask {
+    background-color: hsl(0deg 33% 94.34% / 60%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* add css for mobile view */
+@media (max-width: 768px) {
+    .ar-academy-hero-section-title {
+        font-size: 40px;
+    }
+    .ar-academy-hero-section-subtitle {
+        font-size: 20px;
+    }
+    .ar-academy-hero-section-logo {
+        width: 100px;
+        height: 100px;
+    }
+    .ar-academy-hero-section-content {
+        text-align: center;
+    }
+    
+    
+
+}
 </style>
 
 <!-- Main content Start -->
         <div class="main-content">
+
+            <div class="ar-academy-hero-section mb-4">
+                <div class="container">
+                    <div class="row ar-academy-hero-section-row">
+                        <!-- logo on right and email on left -->
+                         <!-- add mask to the background light to dark evenly -->
+                          <div class="ar-academy-hero-section-mask">
+                            <div class="col-lg-3 d-flex align-items-center" style="width: fit-content;">
+                                <div class="ar-academy-hero-section-logo">
+                                    <img src="assets/images/ar-favicon.png" alt="AR Academy Logo">
+                                </div>
+                            </div>
+                            <div class="col-lg">
+                                <div class="ar-academy-hero-section-content d-flex flex-column align-items-center justify-content-center">
+                                    <!-- increase font size bootstrap of h1 and p -->
+                                    <h1 class="ar-academy-hero-section-title">AR Academy</h1>
+                                    <p class="ar-academy-hero-section-subtitle">Training | Placements | Consulting</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
             <!-- Slider Section Start -->
-            <div class="rs-slider style1">
+            <div class="rs-slider style1 d-none">
                 <div class="rs-carousel owl-carousel" data-loop="true" data-items="1" data-margin="0" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="1" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="1" data-ipad-device-nav2="true" data-ipad-device-dots2="false" data-md-device="1" data-md-device-nav="true" data-md-device-dots="false">
                     <div class="slider-content slide1">
                         <div class="container">
@@ -457,9 +537,6 @@ line-height: 14px;
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="btn-part">
-                                        <a href="cpc.html">Apply Now<i class="flaticon-right-arrow"></i></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -485,39 +562,6 @@ line-height: 14px;
                                                 <i class="fa fa-star"></i>
                                             </li>
                                         </ul>
-                                    </div>
-                                    <div class="btn-part">
-                                        <a href="surgery.html">Apply Now<i class="flaticon-right-arrow"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="courses-item">
-                            <div class="img-part">
-                                <img src="assets/images/courses/14.jpg" alt="">
-                            </div>
-                            <div class="content-part">
-                                <span><a class="categories" href="cic.html">SPECIALTY TRAINING<</a></span>
-                                <ul class="meta-part">
-                                    <!--<li class="user"><i class="fa fa-user"></i> 500+</li>-->
-                                    <!--<li><span class="price">$55.00</span></li>-->
-                                </ul>
-                                <h3 class="title"><a href="cic.html">EMERGENCY DEPARTMENT(ED)</a></h3>
-                                <div class="bottom-part">
-                                    <div class="info-meta">
-                                        <ul>                                                
-                                            <li class="ratings">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                          
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="btn-part">
-                                        <a href="cic.html">Apply Now<i class="flaticon-right-arrow"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -545,9 +589,6 @@ line-height: 14px;
 
                                             </li>
                                         </ul>
-                                    </div>
-                                    <div class="btn-part">
-                                        <a href="emergency.html">Apply Now<i class="flaticon-right-arrow"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -752,14 +793,13 @@ line-height: 14px;
                             <h4 class="widget-title">Our Courses</h4>
                             <ul class="site-map">
                                 <li><a href="#">Medical Coding</a></li>
-                                <li><a href="#">Revenue Cycle Management</a></li>
+                                <li><a href="#">Python & Full Stack Development</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
                             <h4 class="widget-title">Specialty Programs</h4>
                             <ul class="site-map">
                                 <li><a href="#">SURGERY DEPARTMENT</a></li>
-                                <li><a href="#">EMERGENCY DEPARTMENT</a></li>
                                 <li><a href="#">E&M</a></li>
                                 <li><a href="#">IP DRG</a></li>
                                 <li><a href="#">HCC</a></li>
